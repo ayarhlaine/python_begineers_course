@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  python_service:
+    container_name: docker_turorial
+    stdin_open: true
+    tty: true
+    build: .
+    volumes:
+      - "${PWD}/src:/usr/src/app"

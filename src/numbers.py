@@ -1,0 +1,15 @@
+from math import *
+
+print(3 * 4)
+print(3 * 4 + 5)
+print(3 * (4 + 5))
+print(10 % 3)
+print(5)
+print(str(5) + " is my favorite number.")
+print(abs(-5))
+my_power_result = pow(5, 2)
+print("5 power 2 equal to " + str(my_power_result))
+print(round(3.7))
+print(floor(3.4))
+print(ceil(3.4))
+print(sqrt(25))
